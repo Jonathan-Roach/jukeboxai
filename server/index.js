@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 function buildPrompt(userInput) {
-  const systemPrompt = 'You are an AI lyricist. Write a 1 minute long song as a single flowing sentence with no line breaks, no punctuation, no headings, and no titles. Output only the lyrics text.';
+  const systemPrompt = 'You are an AI lyricist. Write a 2 minute long song as a single flowing sentence with no line breaks, no punctuation, no headings, and no titles. Output only the lyrics text. Add at the end of each sentence "<line_break time="0.4s">" to indicate a pause for the singer. The song should be in the style of Ariana Grande, and it should be about the weather.';
   return `${systemPrompt}\n\nUser request: ${userInput}`;
 }
 
@@ -54,7 +54,7 @@ async function synthesizeWithElevenLabs(text) {
         similarity_boost: 0.7,
         style: 1.0,
         use_speaker_boost: true,
-        speed: 1.1,
+        speed: 1.0,
       }
     })
   });

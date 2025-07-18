@@ -31,19 +31,19 @@ pip install -r requirements.txt
 
 3.	Set your API keys (as environment variables or config file):
 
-	•	GEMINI_API_KEY
-	•	ELEVENLABS_API_KEY
+- GEMINI_API_KEY
+- ELEVENLABS_API_KEY
 
 ---
 
 ## 🔊 Output
-	•	Voice generated using ElevenLabs
-	•	Prompt handled by Gemini
-	•	Final audio saved as WAV or MP3 in your project folder
+- Voice generated using ElevenLabs
+- Prompt handled by Gemini
+- Final audio saved as WAV or MP3 in your project folder
 
 ---
 
 ## 🔧 Customization
-	•	Choose from different ElevenLabs voice presets
-	•	Adjust Gemini prompts for tone, length, and creativity
-	•	Optionally add music beds or background loops (planned feature)
+- Choose from different ElevenLabs voice presets
+- Adjust Gemini prompts for tone, length, and creativity
+- Optionally add music beds or background loops (planned feature)

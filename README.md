@@ -1,6 +1,6 @@
 # 🎵 JukeboxAI
 
-**JukeboxAI** is an AI-powered music and audio generator that combines Google's **Gemini** large language model with **ElevenLabs** voice synthesis. It allows you to generate lifelike audio from creative text prompts — whether you want lyrics, narration, or song-like output.
+**JukeboxAI** is an AI-powered music and audio generator that combines Google's **Gemini** large language model with **ElevenLabs** voice synthesis. It allows you to generate music from creative text prompts — whether you want lyrics, narration, or song-like output.
 
 ---
 
@@ -8,9 +8,8 @@
 
 - 🤖 Uses Gemini for prompt understanding and creativity
 - 🎙️ Synthesizes voices with ElevenLabs' realistic speech engine
-- 🎵 Ideal for generating lyrics, songs, or musical storytelling
+- 🎵 Ideal for generating songs & lyrics
 - 💾 Saves outputs locally as .wav or .mp3
-- 🧠 Simple Python wrapper for creative experimentation
 
 ---
 
